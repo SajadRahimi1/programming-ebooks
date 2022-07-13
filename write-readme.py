@@ -13,7 +13,7 @@ for root, directories, files in os.walk("./", topdown=False):
                 add_str =add_str+"\n"+"## "+replacedRoot
             fullPath ="https://github.com/SajadRahimi1/programming-ebooks/blob/main/"+ urllib.parse.quote(replacedRoot+"/" + name)
             add_str = add_str+"\n"+f"- [{name}]({fullPath})"
-        add_str+="\n### if your book has copy right and it's in this repo open issue and say it for remove it"     
+add_str+="\n### if your book has copy right and it's in this repo open issue and say it for remove it"     
 
 
 def writeReadme():
